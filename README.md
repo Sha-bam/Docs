@@ -21,6 +21,8 @@ Check out this [link](https://www.kaggle.com/fizzbuzz/beginner-s-guide-to-audio-
 - Also probably going to need to increase dropout rate
 - Need to discuss how we're going to be classifying based on rounds (.556, .762. 9mm ,etc ) or by type of gun (Longrfile, handgun, Sniper, Bazooka <- this is a joke), or finally even down to the specific gun (Ak-varient, AR-15, etc.)
 
+# How we're gonna do this
+
 **Data Sourcing:**
 
 [Gunshot Audio Forensice Dataset](https://www.google.com/search?q=gun+sound+data+set&oq=gun&aqs=chrome.1.69i57j69i59l3j0i67j69i61l2j69i60.5474j0j7&sourceid=chrome&ie=UTF-8)
@@ -28,3 +30,15 @@ Check out this [link](https://www.kaggle.com/fizzbuzz/beginner-s-guide-to-audio-
 [Research Google](https://research.google.com/audioset/dataset/gunshot_gunfire.html)
 
 -> We will also be sampling audio data from youtube for validation. We will also need to apply some preprocessing to normalize the data.
+
+In addition, to combat variability in sound quality, we're going to down sample everything to some threshold we need to figure out.
+
+We're probably going to need to write up a few python scripts :
+
+```
+pre-process.py
+
+a-script-for-labelling.py
+```
+
+Also for validation we're going to have to do a lot of manual labelling. This is going to be the shittiest phase, but really key for making sure that our model doesn't end up completely useless.
