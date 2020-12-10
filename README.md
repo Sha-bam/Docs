@@ -14,7 +14,7 @@ Check out this [link](https://www.kaggle.com/fizzbuzz/beginner-s-guide-to-audio-
 
 ![alt text](images/architecture.jpg)
 
-\***\*notes**:
+\***\*misc notes**:
 
 - We can replace dense layers with sparse using **SET** pruning.
 - Since our data is going to be varied among different sources we're gonna need to do something about the input layer
