@@ -17,3 +17,14 @@ Check out this [link](https://www.kaggle.com/fizzbuzz/beginner-s-guide-to-audio-
 \***\*notes**:
 
 - We can replace dense layers with sparse using **SET** pruning.
+- Since our data is going to be varied among different sources we're gonna need to do something about the input layer
+- Also probably going to need to increase dropout rate
+- Need to discuss how we're going to be classifying based on rounds (.556, .762. 9mm ,etc ) or by type of gun (Longrfile, handgun, Sniper, Bazooka <- this is a joke), or finally even down to the specific gun (Ak-varient, AR-15, etc.)
+
+**Data Sourcing:**
+
+[Gunshot Audio Forensice Dataset](https://www.google.com/search?q=gun+sound+data+set&oq=gun&aqs=chrome.1.69i57j69i59l3j0i67j69i61l2j69i60.5474j0j7&sourceid=chrome&ie=UTF-8)
+
+[Research Google](https://research.google.com/audioset/dataset/gunshot_gunfire.html)
+
+-> We will also be sampling audio data from youtube for validation. We will also need to apply some preprocessing to normalize the data.
