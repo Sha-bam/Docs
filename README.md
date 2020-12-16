@@ -20,6 +20,7 @@ Check out this [link](https://www.kaggle.com/fizzbuzz/beginner-s-guide-to-audio-
 - Since our data is going to be varied among different sources we're gonna need to do something about the input layer
 - Also probably going to need to increase dropout rate
 - Need to discuss how we're going to be classifying based on rounds (.556, .762. 9mm ,etc ) or by type of gun (Longrfile, handgun, Sniper, Bazooka <- this is a joke), or finally even down to the specific gun (Ak-varient, AR-15, etc.)
+- Sure we want automatic feature extraction, however, we should transform our data from traditional spectrogram to something like a [MEL-spectrogram](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0?gi=67c12ee836b7)?
 
 # How we're gonna do this
 
